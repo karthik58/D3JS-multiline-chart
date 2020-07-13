@@ -1,0 +1,145 @@
+body {
+    font-family: sans-serif;
+    font-size: 9pt;
+    line-height: 12pt;
+    background: #ffffff;
+    color: #555555;
+ }
+ .line1 {
+    fill: none;
+    /*fill: #0066CC;*/
+    stroke: #003D7A;  /*stroke: steelblue;*/
+    stroke-width: 2px;
+ }
+ .line2 {
+    fill: none;
+    /*fill: #66C266;*/
+    stroke: #009900;  /*stroke: green;*/
+    stroke-width: 2px;
+ }
+ .line3 {
+    fill: none;
+    /*fill: #FFC285;*/
+    stroke: #FF9933; /*stroke: orange;*/
+    stroke-width: 2px;
+ }
+  .line4 {
+    fill: none;
+    /*fill: #FF6666;*/
+    stroke: #FF0000;    /*stroke: red;*/
+    stroke-width: 2px;
+ }
+ .line5{
+    fill: none;
+    /*fill: #A366A3;*/
+    stroke: #660066; /*stroke: purple;*/
+    stroke-width: 2px;
+ }
+ p.firstLine{
+    font-weight: bold;
+    color: #003D7A;
+ }
+ p.secondLine{
+    font-weight: bold;
+    color: #009900;
+ }
+ p.thirdLine{
+    font-weight: bold;
+    color: #FF9933;
+ }
+ p.fourthLine{
+    font-weight: bold;
+    color: #FF0000;
+ }
+ p.fifthLine{
+    font-weight: bold;
+    color: #660066;
+ }
+ .axis path, .axis line {
+    fill: none;
+    stroke: #555555;
+    shape-rendering: crispEdges;
+ }
+
+
+
+
+
+ p {
+   font-family: sans-serif;
+   font-size: 14px;
+   margin-bottom: 0;
+}
+/*template styles*/
+.gia-chart-wrapper {
+   max-width: 620px;
+   margin: 0 auto;
+}
+/*chart styles*/
+.y.axis line {
+    fill: none;
+    stroke: #dcdcdc;
+    stroke-dasharray: 1px 1px;
+    shape-rendering: crispEdges;
+    stroke-width: 1px;
+}
+.x.axis line {
+    fill: none;
+    stroke: #333333;
+    shape-rendering: crispEdges;
+    stroke-width: 1px;
+}
+.tick.g-baseline line {
+     stroke: #333333;
+     stroke-dasharray: 0;
+     stroke-width: 1px;
+} 
+.axis text {
+    font-family: sans-serif;
+    font-size: 12px;
+    pointer-events: none;
+    fill: #bdbdbd;
+}
+.y.axis text {
+    text-anchor: end !important;
+    font-size:12px;
+    fill: #bdbdbd;
+}
+.domain {
+    display: none;
+}
+.area {
+     fill: #eaeaea;
+     opacity: 0.5;
+}
+.g-label-text {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.g-label-circle {
+    fill: #4bc6df;
+}
+.blueLine {
+    stroke: #005689;
+    stroke-width: 2px;
+    fill: none;
+}
+.redLine {
+    stroke: #d61d00;
+    stroke-width: 2px;
+    fill: none;
+}
+.labelBlue {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    fill: #005689;
+    text-anchor: end;
+}
+.labelRed {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    fill: #d61d00;
+    text-anchor: start;
+}
